@@ -1,0 +1,143 @@
+/* changes with photos only in this section */
+body{
+  background-color: #f3f4ed;
+  color: #40514E;
+  text-align: center;
+font-family: 'Cormorant Garamond', serif;
+font-size: 20px;
+margin: 0px;
+}
+body
+  { background-image: url(C:/photosforprojects/grey.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn ;
+  background-size: cover;
+
+
+}
+
+#photo
+{
+height: 200px;
+width: 200px;
+
+}
+.skilled
+{
+  height: 200px;
+  width: 200px;
+
+
+}
+.nikon
+{
+
+  height: 200px;
+   width: 200px;
+}
+.linkedin
+{
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+}
+.linkedin:hover{
+  filter: invert(100%);
+}
+/* ************************************************************************************ */
+/*  text related styling*/
+/* rem chota hota hai it is times of 16px */
+.heading
+{
+  text-align: center;
+  font-size: 5rem;
+  line-height: 1;
+}
+.head
+
+{
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+
+/*******************************************************************/
+/* border,button and other elements styling section*/
+.val{
+  border-style: double;
+  border-radius: 4px;
+}
+.val:focus
+{
+  background-color: lightblue;
+
+}
+
+hr{
+  width: 5%;
+  border-style: dotted;
+  border-width: thick;
+  border-bottom: hidden;
+
+  opacity: 0.6;
+}
+
+
+.bottom-container{
+  background-color: #9dad7f;
+padding: 50px 0 20px ;
+
+
+}
+
+
+.sumit{
+	-moz-box-shadow:inset 0px 0px 14px -3px #f2fadc;
+	-webkit-box-shadow:inset 0px 0px 14px -3px #f2fadc;
+	box-shadow:inset 0px 0px 14px -3px #f2fadc;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dbe6c4), color-stop(1, #9ba892) );
+	background:-moz-linear-gradient( center top, #dbe6c4 5%, #9ba892 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbe6c4', endColorstr='#9ba892');
+	background-color:#dbe6c4;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+text-indent:0;
+	border:1px solid #b2b8ad;
+	display:inline-block;
+	color:#757d6f;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 0px #ced9bf;
+}
+.sumit:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9ba892), color-stop(1, #dbe6c4) );
+	background:-moz-linear-gradient( center top, #9ba892 5%, #dbe6c4 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ba892', endColorstr='#dbe6c4');
+	background-color:#9ba892;
+  cursor: pointer;
+}
+.sumit:active {
+	position:relative;
+	top:1px;
+}
+
+
+/**********************************************************************************************/
